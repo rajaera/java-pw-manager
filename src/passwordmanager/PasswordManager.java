@@ -29,7 +29,8 @@ public class PasswordManager {
     public static void main(String[] args) {
         
         try {
-            String input = "I'mdoingabsc@londontech";
+            String input = "test123";
+            
             SecretKey key = AESUtil.getKeyFromPassword(input, "rajaera@gmail.com");
             IvParameterSpec ivParameterSpec = AESUtil.generateIv();
             String algorithm = "AES/CBC/PKCS5Padding";
