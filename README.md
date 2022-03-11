@@ -1,1 +1,5 @@
-# java-pw-manager ## AES encryption and decryption
+# java-pw-manager 
+
+## Introduction
+
+AES encryption and decryption
